@@ -1,0 +1,24 @@
+{
+  "protein": "AF-Q9D8X1-F1-model_v6.pdb",
+  "chain_id": "A",
+  "length": 272,
+  "wt_sequence": "MKKGASCERKQAWISSGKAGAGNGFLMEVCVDSVESAVNAERGGAGRIELCSGLLEGGTTPSMGVLQVVKQSVQIPVFVMIRPRGGDFLYSDREVEVMKADIRLAKLYGADGLVFGALTEDGHIDKELCLSLVALCRPLPVTFHRAFDMVHDPMAALETLLTLGFERVLTSGCDSSALEGLPLIKQLIDQAKGRIVVMPGGGITDKNLQRILEGSGATEFHCSARSSRDSGMKFRNSSVAMGASLAHSEYSLKVTDVTKVRTLNAIAKDVLV",
+  "model_name": "v_48_020",
+  "mode": "xscan_probability_tensor_generation",
+  "response_definition": "max_delta_probability_energy_gap_from_masked_probability_tensor",
+  "random_seed": 45,
+  "aa_order": "ARNDCQEGHILKMFPSTWYV",
+  "eps_prob": 1e-09,
+  "n_forward_passes": 274,
+  "tensor_definition": "d_tensor_LxLx20[i, j, a] = P_j_rm[i, a], where j is the masked source position",
+  "npz_file": "/content/drive/MyDrive/Colab Notebooks/test/DMS/MPNN/AF-Q9D8X1-F1-model_v6.pdb/AF-Q9D8X1-F1-model_v6.pdb_xscan_probability_tensors.npz",
+  "npz_arrays": [
+    "P_wt_Lx20",
+    "P_uncond_Lx20",
+    "d_tensor_LxLx20",
+    "wt_indices",
+    "wt_sequence",
+    "aa_order"
+  ],
+  "timestamp_utc": "2026-06-26T06:20:30.320766"
+}
