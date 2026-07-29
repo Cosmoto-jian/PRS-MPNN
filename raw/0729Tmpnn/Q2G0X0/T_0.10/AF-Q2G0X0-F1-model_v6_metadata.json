@@ -1,0 +1,24 @@
+{
+  "protein": "AF-Q2G0X0-F1-model_v6",
+  "short_id": "Q2G0X0",
+  "chain_id": "A",
+  "length": 261,
+  "wt_sequence": "MKSIKRIGLCISLLILIIFVTSCDGDNKIIGDSKEEQIKKSFAKTLDIYPIKNLEDLYDKEGYRDGEFKKDDKGTWLIRSEMKIQLKGENLESRGAVLEINRNTRTAKGHYIVREVVEDSDGMTHNHTKRYPVKMENNKMIPLKPIDDEKVKKEIEEFNFFVQYGNFKELENYKEDEVSYNPEVPIYSAKYQLKNSDYNVEQLRKRYNIPTQKAPKLLLKGSGNLKGSSVGYKNIEFTFIENKEENIYFTDSIYFNPSEDK",
+  "temperature": 0.1,
+  "model_name": "v_48_020",
+  "mode": "xscan_probability_tensor_generation",
+  "random_seed": 45,
+  "aa_order": "ARNDCQEGHILKMFPSTWYV",
+  "eps_prob": 1e-09,
+  "n_forward_passes": 263,
+  "tensor_definition": "d_tensor_LxLx20[i,j,a] = P(a|i, mask j)",
+  "npz_arrays": [
+    "P_wt_Lx20",
+    "P_uncond_Lx20",
+    "d_tensor_LxLx20",
+    "wt_indices",
+    "wt_sequence",
+    "aa_order"
+  ],
+  "timestamp_utc": "2026-07-29T06:10:48.831750"
+}
